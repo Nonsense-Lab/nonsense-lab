@@ -8,6 +8,6 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 # Written
 **GR** : A keystring generator which only depends on the random functions provided in `<random>` and `<cstdlib>`.
 <br>
-(Readme)[https://github.com/k612created/nonsense-lab/gr/README.md]
+[Readme](https://github.com/k612created/nonsense-lab/gr/README.md)
 <br>
-(读我)[https://github.com/k612created/nonsense-lab/gr/README_zh.md]
+[读我（中文）](https://github.com/k612created/nonsense-lab/gr/README_zh.md)
