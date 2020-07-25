@@ -1,6 +1,8 @@
 # nonsense-lab
 > 不想看洋文？来 [读我](https://github.com/k612created/nonsense-lab/blob/master/README_zh.md) 了解 **吃饱了撑研究所**！
 
+We use this -> ![Badge](https://img.shields.io/badge/Nonsense-Laboratory-blue) to certify the official document of **Nonsense-Laboratory**.
+
 The name of this repository, **nonsense-lab**, is self-explanatory, just as I said in the short comment.
 <br>
 It's written in C++, and Linux/Mac OS users may use `g++` to compile and run all of the applications in your machine.
