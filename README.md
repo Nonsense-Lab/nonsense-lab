@@ -9,7 +9,7 @@ It's written in C++, and Linux/Mac OS users may use `g++` to compile and run all
 <br>
 Besides, for Windows users, there is always a 32-bit version of the application that is ready to run to download.
 ****
-# Written
+## Written
 **GR** : A keystring generator which only depends on the random functions provided in `<random>` and `<cstdlib>`.
 <br>
 [Readme](https://github.com/k612created/nonsense-lab/blob/master/gr/README.md)
@@ -19,6 +19,6 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 [Readme](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README.md)
 (**HAVEN'T WRITTEN YET**)
 ****
-# Articles
+## Articles
 [Guide of compiling & running](https://github.com/k612created/nonsense-lab/blob/master/compile_run_guide.md)
 
