@@ -151,13 +151,13 @@ void MainFunction(
 
                       if (HELP) {
                         cout << "===== Help of GR =====" << endl
-                            <<  "--only-number\t:\tShow only generated big number." << endl
-                            <<  "--only-encrypted\t:\tShow only generated result." << endl
-                            <<  "--help\t:\tShow this help." << endl
-                            <<  "--about\t:\tShow about file." << endl
-                            <<  "--version\t:\tShow the version of GR you current using." << endl
+                            <<  "--only-number               \t:\tShow only generated big number." << endl
+                            <<  "--only-encrypted            \t:\tShow only generated result." << endl
+                            <<  "--help                      \t:\tShow this help." << endl
+                            <<  "--about                     \t:\tShow about file." << endl
+                            <<  "--version                   \t:\tShow the version of GR you current using." << endl
                             <<  "--separator <i:int> <j:char>\t:\tAutomatically adds a separator <j> every <i> characters." << endl
-                            <<  "--length <i:int>\t:\t**IMPORTANT**: Set the length of the generated number to <i>." << endl;
+                            <<  "--length <i:int>            \t:\t**IMPORTANT**: Set the length of the generated number to <i>." << endl;
                       }
 
                       if (ABOUT) {
