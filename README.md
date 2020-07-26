@@ -17,7 +17,7 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 **GR Encryptor / Decryptor** : An encryptor / decriptor which based on the magical algorithm used in **GR**.
 <br>
 [Readme](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README.md)
-(**HAVEN'T WRITTEN YET**)
+
 ****
 ## Articles
 [Guide of compiling & running](https://github.com/k612created/nonsense-lab/blob/master/compile_run_guide.md)
