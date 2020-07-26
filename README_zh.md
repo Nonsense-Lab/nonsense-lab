@@ -26,6 +26,11 @@
 **GR 加/解密工具**: 使用 **GR** 里头的算法实现加、解密操作。
 
 咋用？[读我。](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README_zh.md)
+****
+
+**吃派**: 在 \PI\ 里头找出你想要的数字串。
+
+咋用？[没写完呢。]
 
 ****
 ## 还整了啥
