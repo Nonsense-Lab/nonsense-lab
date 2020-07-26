@@ -19,6 +19,10 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 [Readme](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README.md)
 
 ****
+**PiSearcher**: A search engine that can search a specific number string in the PI digits.
+<br>
+[Readme] **(Haven't finished yet)**
+****
 ## Articles
 [Guide of compiling & running](https://github.com/k612created/nonsense-lab/blob/master/compile_run_guide.md)
 
