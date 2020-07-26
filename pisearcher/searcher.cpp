@@ -7,16 +7,16 @@
 /**
  * Computation of the n'th decimal digit of \pi with very little memory.
  * Written by Fabrice Bellard on January 8, 1997.
- * 
+ *
  * We use a slightly modified version of the method described by
- * Simon Plouffe in "On the Computation of the n'th decimal digit of 
+ * Simon Plouffe in "On the Computation of the n'th decimal digit of
  * various transcendental numbers" (November 1996). We have modified
  * the algorithm to get a running time of O(n^2) instead of O(n^3log(n)^3).
- * 
+ *
  * This program uses mostly integer arithmetic. It may be slow
  * on some hardwares where integer multiplications and divisions must
  * be done by software. We have supposed that 'int' has a size of 32 bits.
- * If your compiler supports 'long long' integers of 64 bits, you 
+ * If your compiler supports 'long long' integers of 64 bits, you
  * may use the integer version of 'mul_mod' (see HAS_LONG_LONG).
  */
 
@@ -194,11 +194,20 @@ bool MainFunction(int Input_N, string str, int& j, int I) {
         if (rpt == str) {spp = true; break;}
         j=I+i;
     }
+
+    if (Input_N % 500 == 0) {
+            cout << "\rYou have tried " << Input_N << " times. Would you like to continue? [y/n]: ";
+            char yn;
+            cin >> yn;
+            if (yn == 'n') exit(1);
+            else cout << "\r";
+    }
+
     return spp;
     /*
     string ptrf = "%";
     stringstream ss;
-    
+
     if (Input_N == 1) { ss<<str.size()-1; ptrf += string("3")+ss.str()+string("d"); }
     else { ss<<str.size(); ptrf += ss.str()+string("d"); }
     sprintf(retptr, ptrf.c_str(), (int) (sum * 1e9));
@@ -209,7 +218,7 @@ bool MainFunction(int Input_N, string str, int& j, int I) {
 /********** main() Function Start **********/
 int main(int argc, char** argv) {
     if (argc < 2) {
-        const char* helpstr = 
+        const char* helpstr =
             "===== Help of PI Searcher (C++) =====\n"
             "Enter Nothing \t:\tShow HELP, ABOUT, and VERSION file.\n"
             "Enter a number\t:\tSearch your number in PI.\n"
