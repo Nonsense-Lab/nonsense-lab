@@ -12,11 +12,11 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 ## Written
 **GR** : A keystring generator which only depends on the random functions provided in `<random>` and `<cstdlib>`.
 <br>
-[Readme](https://github.com/k612created/nonsense-lab/blob/master/gr/README.md)
+[Readme](https://github.com/Nonsense-Lab/nonsense-lab/blob/master/gr/README.md)
 ****
 **GR Encryptor / Decryptor** : An encryptor / decriptor which based on the magical algorithm used in **GR**.
 <br>
-[Readme](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README.md)
+[Readme](https://github.com/Nonsense-Lab/nonsense-lab/blob/master/gr-encdecrypt/README.md)
 
 ****
 **PiSearcher**: A search engine that can search a specific number string in the PI digits.
@@ -24,5 +24,5 @@ Besides, for Windows users, there is always a 32-bit version of the application 
 [Readme] **(Haven't finished yet)**
 ****
 ## Articles
-[Guide of compiling & running](https://github.com/k612created/nonsense-lab/blob/master/compile_run_guide.md)
+[Guide of compiling & running](https://github.com/Nonsense-Lab/nonsense-lab/blob/master/compile_run_guide.md)
 
