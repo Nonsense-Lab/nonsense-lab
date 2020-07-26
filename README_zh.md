@@ -27,8 +27,6 @@
 
 咋用？[读我。](https://github.com/k612created/nonsense-lab/blob/master/gr-encdecrypt/README_zh.md)
 
-（**文档没整完呢。**）
-
 ****
 ## 还整了啥
 [吃饱了撑研究所编译/运行指北](https://github.com/k612created/nonsense-lab/blob/master/compile_run_guide_zh.md)
